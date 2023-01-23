@@ -1,0 +1,7 @@
+.Checkin {
+  display: flex;
+  align-items: center;
+}
+.CheckInCal {
+  padding-right: 5px;
+}

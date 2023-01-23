@@ -1,0 +1,7 @@
+.CheckOut {
+  display: flex;
+  align-items: center;
+}
+.CheckOutCal {
+  padding-right: 5px;
+}
