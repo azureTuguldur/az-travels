@@ -1,4 +1,5 @@
 import React from "react";
+import CatBtns from "./CategoriesBtns";
 import CategoriesText from "./CategoriesText";
 import "./Hero.css";
 import SearchBar from "./SearchBar";
@@ -10,6 +11,7 @@ const Hero = () => {
       <Title />
       <SearchBar />
       <CategoriesText />
+      <CatBtns />
     </div>
   );
 };

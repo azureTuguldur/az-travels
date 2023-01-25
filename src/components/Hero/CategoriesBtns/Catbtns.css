@@ -1,0 +1,4 @@
+.Catbtns {
+  display: flex;
+  flex-direction: row;
+}
