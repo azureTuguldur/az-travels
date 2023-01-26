@@ -1,0 +1,50 @@
+.Offers h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+.Offersdiv {
+  display: flex;
+  overflow-x: scroll;
+}
+.Offersdiv img {
+  height: 200px;
+  width: 310px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.Offersminidiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 230px;
+  width: 320px;
+}
+.miniOffer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 690px;
+  height: 220px;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 15px;
+}
+.Offersminidiv h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Offersminidiv p {
+  margin-top: 10px;
+}
+.Offersminidiv button {
+  width: 140px;
+  height: 42px;
+  background-color: #2659c3;
+  border-radius: 32px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}

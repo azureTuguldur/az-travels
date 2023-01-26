@@ -2,3 +2,19 @@
   display: flex;
   flex-direction: row;
 }
+.Catbtnhaver {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Catbtns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff81;
+}
+.Catbtns img {
+  width: 32px;
+  height: 32px;
+}

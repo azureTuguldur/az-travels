@@ -1,0 +1,30 @@
+.TopDestination {
+  margin-bottom: 80px;
+}
+.TopDestination h2 {
+  color: white;
+  font-size: 32px;
+  line-height: 37px;
+  margin-bottom: 40px;
+}
+.descard {
+  height: 200px;
+  width: 310px;
+  color: white;
+  position: relative;
+  margin-left: 15px;
+}
+.descard h3 {
+  position: absolute;
+  z-index: 1000;
+  bottom: 1px;
+  left: 20px;
+}
+.descard img {
+  border-radius: 20px;
+}
+.Desflex {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}

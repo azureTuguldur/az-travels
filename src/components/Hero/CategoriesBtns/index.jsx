@@ -9,6 +9,7 @@
 // import Castles from "./Castles";
 // import Skiing from "./Skiing";
 // import Tropical from "./Tropical";
+import { ClassNames } from "@emotion/react";
 import "./Catbtns.css";
 
 // const CatBtns = () => {
@@ -27,27 +28,35 @@ import "./Catbtns.css";
 //     </div>
 //   );
 // };
-
-const CatBtns = () => {
-  const CatSelection = [
-    { name: "Beaches", img: "" },
-    { name: "Deserts", img: "" },
-    { name: "Mountains", img: "" },
-    { name: "Iconic Sities", img: "" },
-    { name: "Houseboats", img: "" },
-    { name: "Countryside", img: "" },
-    { name: "Camping", img: "" },
-    { name: "Castles", img: "" },
-    { name: "Skiing", img: "" },
-    { name: "Tropical", img: "" },
-  ];
-  const CatBtnDes = (props) => {
-    <div>
+const CatSelection = [
+  { name: "Beaches", img: "/img/icons/Beaches.png" },
+  { name: "Deserts", img: "/img/icons/Deserts.png" },
+  { name: "Mountains", img: "/img/icons/Mountains.png" },
+  { name: "Iconic Sities", img: "/img/icons/IconicSities.png" },
+  { name: "Houseboats", img: "/img/icons/Houseboats.png" },
+  { name: "Countryside", img: "/img/icons/Countryside.png" },
+  { name: "Camping", img: "/img/icons/Camping.png" },
+  { name: "Castles", img: "/img/icons/Castles.png" },
+  { name: "Skiing", img: "/img/icons/Skiing.png" },
+  { name: "Tropical", img: "/img/icons/Tropical.png" },
+];
+const CatBtnDes = (props) => {
+  return (
+    <div className="Catbtns">
       <img src={props.img} alt="" />
       <h4>{props.name}</h4>
-    </div>;
-  };
-  return <div></div>;
+    </div>
+  );
+};
+
+const CatBtns = () => {
+  return (
+    <div className="Catbtnhaver">
+      {CatSelection.map((props) => (
+        <CatBtnDes name={props.name} img={props.img} />
+      ))}
+    </div>
+  );
 };
 
 export default CatBtns;
