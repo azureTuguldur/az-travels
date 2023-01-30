@@ -19,11 +19,21 @@ const Menu = () => {
       {/* {MenuItems.map((props) => (
         <MenuShow key={props.name} name={props.name} class={props.name} />
       ))} */}
-      <Button className="MenuBtn">Home</Button>
-      <Button className="MenuBtn">Stays</Button>
-      <Button className="MenuBtn">Flights</Button>
-      <Button className="MenuBtn">Packages</Button>
-      <Button className="MenuBtn">Sign Up</Button>
+      <Button sx={{ color: "white" }} className="MenuBtn">
+        Home
+      </Button>
+      <Button sx={{ color: "white" }} className="MenuBtn">
+        Stays
+      </Button>
+      <Button sx={{ color: "white" }} className="MenuBtn">
+        Flights
+      </Button>
+      <Button sx={{ color: "white" }} className="MenuBtn">
+        Packages
+      </Button>
+      <Button sx={{ color: "white" }} className="MenuBtn">
+        Sign Up
+      </Button>
     </div>
   );
 };

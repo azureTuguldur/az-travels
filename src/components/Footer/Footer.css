@@ -1,0 +1,11 @@
+.Footer{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.footer1{
+    display: flex;
+}
+.footer12{
+    display: flex;
+    flex-wrap: wrap;
+}

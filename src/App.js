@@ -3,14 +3,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignIn from "./pages/Authentication/SignIn";
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: "steelblue" }}>
+    <div className="App">
       <MainPage />
-      {/* <SignIn />
-      <BrowserRouter>
+      {/* <SignIn /> */}
+      {/* <BrowserRouter>
         <Routes>
-          <Route></Route>
+          <Route/>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>  */}
     </div>
   );
 }

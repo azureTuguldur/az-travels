@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -24,12 +25,14 @@ const Footernamediv = (props) => {
 
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className="Footer" style={{ background: "black", color: "white" }}>
+      <div className="footer1">
         <h1>Trxvl.</h1>
-        {Footernames.map((props) => {
-          <Footernamediv name={props.name} />;
-        })}
+        <div className="footer12">
+          {Footernames.map((props) => (
+            <Footernamediv name={props.name} />
+          ))}
+        </div>
       </div>
       <div>
         <button>Helmet KOD</button>
