@@ -1,9 +1,13 @@
 import React from "react";
 import "./Menu.css";
 import Button from "@mui/material/Button";
-import ButtonGroup from "@mui/material/ButtonGroup";
+import SignUp from "../../../pages/Authentication/SignUp";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const Menu = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   //   const MenuItems = [
   //     { name: "Home" },
   //     { name: "Stays" },
@@ -31,9 +35,7 @@ const Menu = () => {
       <Button sx={{ color: "white" }} className="MenuBtn">
         Packages
       </Button>
-      <Button sx={{ color: "white" }} className="MenuBtn">
-        Sign Up
-      </Button>
+      <SignUp />
     </div>
   );
 };
