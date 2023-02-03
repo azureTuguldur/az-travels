@@ -26,16 +26,16 @@ const Footernamediv = (props) => {
 const Footer = () => {
   return (
     <div className="Footer" style={{ background: "black", color: "white" }}>
-      <div className="footer1">
+      <div className="foottop">
         <h1>Trxvl.</h1>
-        <div className="footer12">
+        <div className="footer1">
           {Footernames.map((props) => (
             <Footernamediv name={props.name} />
           ))}
         </div>
       </div>
-      <div>
-        <button>Helmet KOD</button>
+      <div className="btnicon">
+        <button className="btnb">Helmet KOD</button>
         <div>
           <FacebookIcon />
           <InstagramIcon />

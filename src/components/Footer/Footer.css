@@ -2,10 +2,30 @@
     padding-left: 8%;
     padding-right: 8%;
 }
+.Footer h1 {
+    display: inline-block;
+}
+.foottop{
+    display: flex;
+    justify-content: space-evenly;
+}
 .footer1{
     display: flex;
-}
-.footer12{
-    display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #808080;
+}
+.footer1 h5{
+    width: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btnicon{   
+    display: flex;
+    justify-content: space-between;
+}
+.btnb{
+    border: #808080 solid 1px;
+    background-color: black;
+    color: #808080;
 }

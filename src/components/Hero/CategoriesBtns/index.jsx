@@ -1,33 +1,4 @@
-// import React from "react";
-// import Beaches from "./Beaches";
-// import Deserts from "./Deserts";
-// import Mountains from "./Mountains";
-// import Iconic from "./IconicCities";
-// import Houseboats from "./Houseboats";
-// import Countryside from "./Countryside";
-// import Camping from "./Camping";
-// import Castles from "./Castles";
-// import Skiing from "./Skiing";
-// import Tropical from "./Tropical";
-import { ClassNames } from "@emotion/react";
 import "./Catbtns.css";
-
-// const CatBtns = () => {
-//   return (
-//     <div className="Catbtns">
-//       <Beaches />
-//       <Deserts />
-//       <Mountains />
-//       <Iconic />
-//       <Houseboats />
-//       <Countryside />
-//       <Camping />
-//       <Castles />
-//       <Skiing />
-//       <Tropical />
-//     </div>
-//   );
-// };
 const CatSelection = [
   { name: "Beaches", img: "/img/icons/Beaches.png" },
   { name: "Deserts", img: "/img/icons/Deserts.png" },
@@ -42,10 +13,10 @@ const CatSelection = [
 ];
 const CatBtnDes = (props) => {
   return (
-    <div className="Catbtns">
+    <button className="Catbtns">
       <img src={props.img} alt="" />
       <h4>{props.name}</h4>
-    </div>
+    </button>
   );
 };
 
