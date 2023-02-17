@@ -5,6 +5,7 @@ import Hero from "../../components/Hero";
 import FirstPage from "../../components/FirstPage";
 import { Button } from "@mui/material";
 import Footer from "../../components/Footer";
+import Categories from "../../components/Categories";
 
 const MainPage = () => {
   // const Home = () => {
@@ -27,8 +28,10 @@ const MainPage = () => {
       {/* <Button onClick={logOut}> Гарах</Button> */}
       {/* <img src="/img/background.png" alt="#" /> */}
       <Navbar />
+      <div className="background"></div>
       <Hero />
       <FirstPage />
+      <Categories />
       <Footer />
     </div>
   );

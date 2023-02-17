@@ -11,9 +11,12 @@ const CatSelection = [
   { name: "Skiing", img: "/img/icons/Skiing.png" },
   { name: "Tropical", img: "/img/icons/Tropical.png" },
 ];
+const active = () => {
+  return;
+};
 const CatBtnDes = (props) => {
   return (
-    <button className="Catbtns">
+    <button className="Catbtns" onClick={active}>
       <img src={props.img} alt="" />
       <h4>{props.name}</h4>
     </button>

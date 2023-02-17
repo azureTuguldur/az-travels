@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
 }
 .Catbtns {
   display: flex;
@@ -23,9 +24,5 @@
 }
 .Catbtns:focus{
   color: white;
-  font-size: 18px;
-}
-.Catbtns:focus img{
-  background-color: white;
-  mix-blend-mode: multiply;
+  border-bottom: solid 2px white;
 }
